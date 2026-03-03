@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arpit's Modern Calculator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div class="calc-card">
         <input type="text" id="display" readonly placeholder="0">
+        
         <div class="buttons">
             <button onclick="clearDisplay()" class="clear">C</button>
             <button onclick="appendToDisplay('/')">/</button>
@@ -32,6 +36,7 @@
             <button onclick="appendToDisplay('.')">.</button>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
